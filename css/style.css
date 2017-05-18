@@ -41,7 +41,7 @@ a {
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #F4D03F;
+	color: #009ddf;
 }
 ul, ol {
 	list-style: none;
@@ -139,10 +139,9 @@ hr {
 	color: #009ddf;
 	background-color: transparent;
 }
-.navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
+.navbar-custom .nav li a:focus{
 	outline: 0;
 	background-color: transparent;
-	color: #009ddf;
 }
 .navbar-custom .nav li.active {
 	outline: 0;
@@ -222,7 +221,7 @@ hr {
 }
 /* About Section */
 #about {
-	padding: 0px 0 210px;
+	padding: 0px 0 240px;
 	background: #fff;
 	border-bottom: 2px solid #dddddd;
 	height: auto;
@@ -573,12 +572,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	padding: 20px 0;
 	text-align: center;
 }
-#footer a {
-	color: #999999;
-}
-#footer a:hover, a:focus {
-	color: #e75926;
-}
 #footer p {
 	font-size: 13px;
 	margin-top: 10px;
@@ -710,6 +703,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .btn-active {
 	color: #f6f6f6 !important;
 	background-color: #ec247f !important;
+}
+.nav-active {
+	outline: 0;
+	background-color: #f6f6f6 !important;
+	color: #009ddf !important;
+	text-decoration: none !important;
 }
 
 #login {
