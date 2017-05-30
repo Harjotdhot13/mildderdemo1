@@ -185,7 +185,11 @@ hr {
 	text-shadow: 0 4px #a13e1a;
 }
 #intro .intro-body .intro-text {
-	font-size: 18px;
+	font-size: 46px;
+	font-size: 5.5vw;
+	font-weight: 700;
+	margin-top: 100px;
+
 }
 
 @media(min-width:768px) {
@@ -194,9 +198,10 @@ hr {
 		padding: 0;
 	}
 	#intro .intro-body .intro-text {
-		font-size: 18px;
+		font-size: 46px;
+		font-weight: 700;
 		letter-spacing: 1px;
-		margin-bottom: 100px;
+		margin-bottom: 10px;
 		color: rgba(255,255,255,0.9);
 	}
 }
@@ -221,13 +226,14 @@ hr {
 }
 /* About Section */
 #about {
-	padding: 0px 0 240px;
+	padding: 0px 0 280px;
 	background: #fff;
 	border-bottom: 2px solid #dddddd;
 	height: auto;
 }
 #about .section-title.center {
 	margin-top: 30px;
+	padding-bottom: 100px;
 }
 #about .about-text {
 	margin-left: 10px;
@@ -729,13 +735,17 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	#about {
 		background: #fff;
 		border-bottom: 2px solid #dddddd;
-		height: 900px;
+		height: 960px;
 	}
 }
 @media(max-width:976px) {
 	#about .btn-group.btn-about {
 		margin-top: 0px !important;
 		margin-bottom: 20px;
+	}
+
+	#about .section-title.center {
+		padding-bottom: 0px;
 	}
 }
 
