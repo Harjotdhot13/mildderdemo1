@@ -36,16 +36,17 @@ jQuery(document).ready(function () {
 });
 
 function onScroll(event){
-  var scrollPos =jQuery(document).scrollTop() + 50;
-   jQuery('#menu-center a').each(function () {
-        var currLink =jQuery(this);
-        var refElement =jQuery(currLink.attr("href"));
-        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-           jQuery('#menu-center ul li a').removeClass("nav-active");
-            currLink.addClass(" nav-active");
-        }
-        else{
-            currLink.removeClass(" nav-active");
-        }
-    });
-  }
+  var scrollPos =jQuery(document).scrollTop() + 40.5;
+  jQuery('#menu-center a').each(function () {
+    var currLink =jQuery(this);
+    var refElement =jQuery(currLink.attr("href"));
+
+    if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+      jQuery('#menu-center ul li a').removeClass("nav-active");
+      currLink.addClass("nav-active");
+    }
+    else {
+      currLink.removeClass(" nav-active");
+    }
+  });
+}
